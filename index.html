@@ -1,16 +1,236 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Integrador - Etapa 01 - Mauricio Molina</title>
-  </head>
 
-  <body>
-<h1>Hola Mundo!</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Integrador - Etapa 01 - Mauricio Molina</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <input type="checkbox" id="menu">
+    <nav class="nav-bar">
+      <ul class="nav-bar__nav-list">
+        <li class="nav-bar__nav-item">
+          <a href="" class="nav-bar__nav-link">Inicio</a>
+        </li>
+        <li class="nav-bar__nav-item">
+          <a href="" class="nav-bar__nav-link">Alta</a>
+        </li>
+        <li class="nav-bar__nav-item">
+          <a href="" class="nav-bar__nav-link">Nosotros</a>
+        </li>
+        <li class="nav-bar__nav-item">
+          <a href="" class="nav-bar__nav-link">Contacto</a>
+        </li>
+      </ul>
+    </nav> <!-- .nav-bar-->
+
+    <div class="search-bar">
+      <div class="search-bar__logo-container">Logo</div>
+      <form action="" class="search-bar__form-container">
+        <label for="busqueda" class="search-bar__form-label">Buscar</label>
+        <input type="search" id="busqueda" class="search-bar__form-search">
+        <button type="submit" class="search-bar__form-submit">Buscar</button>
+      </form>
+      <div class="search-bar__carrito-container">C</div>
+    </div> <!-- .search-bar-->
+
+  </header>
+
+  <main>
+    <section class="section-cards">
+      <header class="section-cards__header">
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <p>Se encontraron X productos</p>
+      </header>
+    </section>
+
+    <section class="cards-container">
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/alemania-1990.webp" alt="Camiseta de la seleccion alemana de futbol del mundial 1990">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta Alemania - Mundial Italia 1990</h2>
+            <div class="card__description">
+              <p>La titular color blanca, utilizada por los bávaros en aquella disputada final contra el equipo
+                argentino.</p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/alemania-1994.webp" alt="Camiseta de la seleccion alemana de futbol del mundial 1994">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta Alemania - Mundial Estados Unidos 1994</h2>
+            <div class="card__description">
+              <p>La camiseta titular, con un hermoso diseño que mezcla el típico color blanco con los colores de la
+                bandera.</p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/argentina-1986.webp" alt="Camiseta de la seleccion argentina de futbol del mundial 1986">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta Argentina - Mundial México 1986</h2>
+            <div class="card__description">
+              <p>La titular de la albiceleste, con la que el equipo de Maradona levantó el trofeo en esa competición.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/argentina-1998.webp" alt="Camiseta de la seleccion argentina de futbol del mundial 1998">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta Argentina - Mundial Francia 1998</h2>
+            <div class="card__description">
+              <p>Camiseta alternativa de aquel equipazo que tenia figuras como Batitusta, Ortega y Simeone.</p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/boca-libertadores-2000.webp" alt="Camiseta de Boca Juniors en la Libertadores 2000">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta de Boca Juniors - Copa Libertadores 2000</h2>
+            <div class="card__description">
+              <p>Camiseta titular de aquel equipo que con figuras como Riquelme y Palermo levantaron el trofeo
+                continental.</p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/brasil-2002.webp" alt="Camiseta de Brasil del Mundial 2002">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta de Brasil - Mundial de Corea y Japón 2002</h2>
+            <div class="card__description">
+              <p>La titular de la verdeamarela, con la que coronaron el trofeo mundialista en aquella ocasión.</p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/camiseta-croacia-primera-equipacion-retro-clasica-1998.webp"
+              alt="Camiseta de Croacia usada en el mundial 1998">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta de Croacia - Mundial de Francia 1998</h2>
+            <div class="card__description">
+              <p>La camiseta titular con un hermoso diseño, del equipo revelación de aquella jornada mundialista.</p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/espania-2010.webp" alt="Camiseta de Espania usada en el mundial 2010">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta de España - Mundial de Sudáfrica 2010</h2>
+            <div class="card__description">
+              <p>La camiseta titular con la que la "Furia Roja" hizo historia, alzando su primer trofeo en la cita
+                mundialista.</p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/francia-1998.webp" alt="Camiseta de Francia usada en el mundial 1998">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta de Francia - Mundial de Francia 1998</h2>
+            <div class="card__description">
+              <p>La bella camiseta azul titular de aquel equipo que comandado por la figura de Zinedine Zidane levantó
+                el trofeo por primera vez.</p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/paises-bajos-1988.webp" alt="Camiseta de Paises Bajos usada en Eurocopa 1988">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta de Paises Bajos - Eurocopa Alemania 1998</h2>
+            <div class="card__description">
+              <p>La titular de la "Naranja Mecánica", con la que ganó su primer título continental frente a la poderosa
+                Unión Soviética</p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/river-1986.webp" alt="Camiseta de River usada en la Libertadores 1986">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta de River Plate - Copa Libertadores 1986</h2>
+            <div class="card__description">
+              <p>La titular del equipo millonario, que con la figura de Enzo Francescoli levantó por primera vez el
+                título en aquel año</p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+      <div class="card">
+        <article class="card__article">
+          <div class="card__image-container">
+            <img src="imgs/urss-1988.webp" alt="Camiseta de Union Soviética usada en Eurocopa 1988">
+          </div>
+          <div class="card__content">
+            <h2 class="card__heading">Camiseta de la Unión Soviética - Eurocopa de Alemania 1988</h2>
+            <div class="card__description">
+              <p>La camiseta titular con la que el equipo comunista fue revelación y llegó a la instancia decisiva de
+                aquel certamen</p>
+            </div>
+          </div>
+        </article>
+      </div> <!-- Card -->
+
+    </section>
 
 
-<script type="module" src="/src/main.js"></script>
-  </body>
+    <script type="module" src="/src/main.js"></script>
+</body>
 
 </html>
