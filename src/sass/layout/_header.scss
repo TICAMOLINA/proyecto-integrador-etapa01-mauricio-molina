@@ -1,10 +1,26 @@
 .main-header {
     display: flex;
     flex-direction: column-reverse;
+
+    @media screen and (min-width: 992px) {
+        & {
+            flex-direction: column;
+        }
+    }
 }
 
 #menu {
     display: none;
+
+    &:checked + .nav-bar  { //El + Selecciona al siguiente hermano
+        display: block;
+    }
+
+    &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
+        background-color: red;
+    }
+
+    
 }
 
 
@@ -14,13 +30,19 @@
 
 .nav-bar {
     background-color: rgb(199, 209, 206);
-    /* display: none; */
+    display: none;
 
     &__nav-list {
         display: flex;
         flex-direction: column;
         justify-content: center;
         list-style-type: none;
+
+        @media screen and (min-width: 992px) {
+            & {
+                flex-direction: row;
+            }
+        }
     }
 
     &__nav-item {
@@ -33,6 +55,12 @@
         background-color: purple;
         padding: 1rem 2rem;
         color: beige;
+    }
+
+    @media screen and (min-width: 992px) {
+        & {
+            display: block;
+        }
     }
 }
 
@@ -115,6 +143,10 @@
 
     &__bottom-bread {
         bottom: .8rem;
+    }
+
+    @media screen and (min-width: 992px) {
+        display: none;
     }
 
 }
