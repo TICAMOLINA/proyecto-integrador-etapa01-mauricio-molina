@@ -70,37 +70,70 @@
 
 .search-bar {
     display: flex;
-    background-color: olivedrab;
-    justify-content: space-around;
+    background-color: #5c5c64;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    min-height: 5.5rem;
+    order: 1;
+
+
+
 
     &__logo-container {
-        width: 18.75rem;
-        height: 3.75rem;
+        width: auto;
+        height: 5.5rem;
+        display: flex;
+        /* margin-left: 22.5rem; */
+        justify-content: end;
+        order: 1;
+    }
+
+    &__logo-image {
+        height: 100%;
     }
 
     &__form-container {
-        padding: 1rem;
-        background-color: gold;
+        padding: 2rem;
+        min-width: 13rem;
+        max-width: 25rem;
+        /* width: 100%; */
+       /*  background-color: gold; */
         display: flex;
-        flex-basis: 100%;
+        /* flex-basis: 100%; */
         justify-content: center;
+        order: 3;
     }
 
     &__form-label {
-        background-color: greenyellow;
+        display: none;
     }
 
     &__form-search {
-        background-color: deeppink;
+        background-color:aliceblue;
+        height: 2rem;
+        width: 8rem;
+        border-radius: 10px;
+        border: none
     }
 
     &__form-submit {
-        background-color: darkslategrey;
+        /* background-color: darkslategrey; */
+        border-radius: 40%;
+        cursor: pointer
     }
 
     &__carrito-container {
         flex: 0 0 3rem; // grow shrink basis
-        background-color: goldenrod;
+        /* background-color: goldenrod; */
+        order: 4;
+        display: flex;
+    }
+
+    &__image-carrito {
+        width: 100%;
+        height: 70%;
+        align-self: center;
     }
 }
 
@@ -110,14 +143,15 @@
 
 .menu-toogle {
     display: block;
-    background-color: red;
+    /* background-color: red; */
     flex: 0 0 3rem;
     position: relative;
     cursor: pointer;
+    order: 0;
 
     &__label {
         display: block;
-        background-color: black;
+        /* background-color: black; */
         height: 100%;
     }
 
@@ -125,15 +159,15 @@
     &__meat,
     &__bottom-bread {
         display: block;
-        background-color: grey;
+        background-color: black;
         height: .2rem;
         position: absolute;
-        left: .5rem;
-        right: .5rem;
+        left: .7rem;
+        right: .3rem;
     }
 
     &__top-bread {
-        top: .8rem;
+        top: 2rem;
     }
 
     &__meat { /* Centrar sin usar flexbox */
@@ -142,7 +176,7 @@
     }
 
     &__bottom-bread {
-        bottom: .8rem;
+        bottom: 2rem;
     }
 
     @media screen and (min-width: 992px) {
