@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column-reverse;
 
+
     @media screen and (min-width: 992px) {
         & {
             flex-direction: column;
@@ -78,6 +79,8 @@
         animation-delay: calc(var(--index) * 0.2s);
     }
 
+
+
     @media screen and (min-width: 992px) {
         display: block;
         position: static;
@@ -116,7 +119,7 @@
 
 .search-bar {
     display: flex;
-    background-color: #5c5c64;
+    background-color: #770316;
     flex-wrap: wrap;
     justify-content: space-between;
     height: auto;
@@ -130,7 +133,6 @@
         width: auto;
         height: 5.5rem;
         display: flex;
-        /* margin-left: 22.5rem; */
         justify-content: end;
         order: 1;
     }
