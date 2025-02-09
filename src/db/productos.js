@@ -82,6 +82,27 @@ const productos = [
         foto: "imgs/urss-1988.webp",
         descripcion: "La camiseta titular con la que el combinado comunista fue revelación y llegó a la instancia decisiva de aquel certamen",
         precio: 666.60
+    },
+    {
+        id: 13,
+        nombre: "Camiseta de Rumania - Mundial de Estados Unidos 1994",
+        foto: "imgs/rumania-1994.webp",
+        descripcion: "La camiseta titular de aquel gran combinado que logro vencer nada más y nada menos que a la subcampeona Argentina",
+        precio: 440.60
+    },
+    {
+        id: 14,
+        nombre: "Camiseta de Ferro - Primera División Argentina 1994",
+        foto: "imgs/ferro-1984.webp",
+        descripcion: "Camiseta titular histórica con la que el equipo recientemente ascendido dió el batacazo ganándole la final del torneo a River",
+        precio: 666.60
+    },
+    {
+        id: 15,
+        nombre: "Camiseta de Yugoslavia - Mundial 1990",
+        foto: "imgs/yugoslavia-1990.webp",
+        descripcion: "La camiseta alternativa blanca de aquel poderoso y duro conjunto balcánico que se midió frente a Argentina en Cuartos de Final",
+        precio: 666.60
     }
 ]
 
