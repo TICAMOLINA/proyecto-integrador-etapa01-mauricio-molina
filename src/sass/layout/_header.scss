@@ -13,7 +13,7 @@
 #menu {
     display: none;
 
-    &:checked + .nav-bar {
+    &:checked+.nav-bar {
 
         display: block;
         transform: translateX(0);
@@ -85,11 +85,21 @@
             position: static;
             transform: none;
             height: auto;
+            background-color: rgb(20, 20, 20);
         }
 
         &__nav-list {
             flex-direction: row;
             justify-content: space-evenly;
+        }
+
+        &__nav-link {
+            color: whitesmoke;
+        }
+
+        &:hover &__nav-item:hover,
+        &:focus &__nav-item {
+            border-bottom: 3px solid whitesmoke;
         }
 
     }
@@ -130,7 +140,7 @@
 
 .search-bar {
     display: flex;
-    background-color: #770316;
+    background-color: #A90B45;
     flex-wrap: wrap;
     justify-content: space-between;
     height: auto;
@@ -203,7 +213,7 @@
         &__form-search {
             width: 15rem;
         }
-    }    
+    }
 
     @media screen and (min-width: 992px) {
         &__form-container {
