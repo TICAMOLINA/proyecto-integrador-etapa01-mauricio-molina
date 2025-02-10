@@ -196,9 +196,8 @@
         height: 35px;
         line-height: 28px;
         border: none;
-        /* text-align: center; */
 
-       i {
+       .fa-search {
         font-size: 18px;
         color: aliceblue;
         transition: all .7s ease
@@ -206,13 +205,12 @@
     }
 
     
-    &__form-submit:hover i {
+    &__form-submit:hover .fa-search {
         transform: rotate(-360deg)
        }
 
     &__carrito-container {
         flex: 0 0 3rem; // grow shrink basis
-        /* background-color: goldenrod; */
         order: 4;
         display: flex;
     }

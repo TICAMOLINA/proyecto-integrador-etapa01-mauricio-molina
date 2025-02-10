@@ -7,7 +7,11 @@ export default {
     },
     build: {
         rollupOptions: {
-            input: resolve(__dirname, 'index.html')
+            input: {
+                main: resolve(__dirname, 'index.html'),
+                about: resolve(__dirname, 'src/pages/about/about.html'),
+                contact: resolve(__dirname, 'src/pages/contact/contact.html')
+            }
         }
     }
 }
